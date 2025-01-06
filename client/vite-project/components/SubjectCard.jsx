@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 function SubjectCard({ subject, faculty }) {
+  let name = "Kshitij Dhake";
   const [marks, setMarks] = useState({
     UT1: 0,
     UT2: 0,
@@ -20,7 +21,7 @@ function SubjectCard({ subject, faculty }) {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({subject, marks}),
+        body: JSON.stringify({name, subject, marks}),
       });
 
       console.log(response);

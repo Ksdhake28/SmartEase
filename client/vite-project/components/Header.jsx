@@ -12,7 +12,7 @@ function Header() {
       <div className="header-icons">
         <FontAwesomeIcon icon={faBell} />
         <div className="account">
-          <h4>John Viek</h4>
+          <h4>Kshitij Dhake</h4>
         </div>
       </div>
     </header>

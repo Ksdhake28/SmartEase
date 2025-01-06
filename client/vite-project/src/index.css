@@ -1,8 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities; */
 
 * {
   margin: 0;
@@ -88,23 +84,40 @@ nav {
 
 .main-body {
   width: 100%; /* Ensures the body takes full width */
-  max-width: 800px;
   margin: 0 auto; /* Center the main content */
   padding: 20px;
   background-color: #f0f0f0;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center content horizontally */
+  /* display: flex; */
+  /* flex-direction: column; */
+  align-items: center; 
+  /* text-align: center; */
+  justify-content: center;
+  
 }
 
+.main-body{
+  padding-left: 30px;
+}
+
+.student-info-card .student-info-field{
+  padding-top: 13px;
+  font-size: 1.4rem ;
+}
+
+.subject-form input {
+  margin-right: 10px;
+}
 .promo_card {
   background-color: #fff;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   width: 100%; /* Make promo card take full width */
-  max-width: 700px; /* Set a max-width to the card */
+  max-width: 1000px; 
   margin-bottom: 20px; /* Spacing between cards */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .subject-info {
@@ -184,3 +197,14 @@ button {
 .promo_card {
   border: 1px solid #ccc; /* Add a border to the promo card */
 }
+
+.subject-card-wrapper{
+  margin: 20px;
+}
+.Marks-Display{
+  padding: 15px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
